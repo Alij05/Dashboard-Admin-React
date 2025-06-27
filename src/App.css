@@ -1,3 +1,18 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+  gap: 50px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
