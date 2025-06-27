@@ -4,8 +4,9 @@
 
 .container {
   display: flex;
-  margin-top: 10px;
-  gap: 50px;
+  margin-top: 24px;
+  gap: 30px;
+  padding-right: 35px;
 }
 
 .link {
