@@ -85,31 +85,31 @@ const newMembers = [
 const transactions = [
     {
         id: 1,
-        customer: 'Qadir Yolme',
+        customer: 'Ali',
         date: '12 Jun 2025',
-        amount: 123,
+        amount: 2203,
         status: 'Approved',
         img: 'images/profile.jfif'
     },
     {
         id: 2,
-        customer: 'Amin Saeedi',
+        customer: 'Sara',
         date: '23 Jul 2025',
-        amount: 123,
+        amount: 2004,
         status: 'Declined',
         img: 'images/profile.jfif'
     },
     {
         id: 3,
-        customer: 'Mohammad Qol',
+        customer: 'Mohammad',
         date: '28 May 2025',
-        amount: 123,
+        amount: 869,
         status: 'Pending',
         img: 'images/profile.jfif'
     },
     {
         id: 4,
-        customer: 'Sasan Moq',
+        customer: 'Armin',
         date: '1 Feb 2025',
         amount: 123,
         status: 'Approved',
