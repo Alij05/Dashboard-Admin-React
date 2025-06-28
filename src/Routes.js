@@ -3,6 +3,7 @@ import UsersList from "./Pages/Users/UsersList"
 import EditUser from "./Pages/EditUser/EditUser"
 import NewUser from "./Pages/NewUser/NewUser"
 import Products from "./Pages/Products/Products"
+import Product from "./Pages/Product/Product"
 
 
 let routes = [
@@ -11,7 +12,7 @@ let routes = [
     { path: '/user/:userID', element: <EditUser /> },
     { path: '/newUser', element: <NewUser /> },
     { path: '/products', element: <Products /> },
-    // {path:'/product/:productID', element: <Products />},
+    {path:'/product/:productID', element: <Product />},
 ]
 
 export default routes

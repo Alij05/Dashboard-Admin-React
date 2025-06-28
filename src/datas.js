@@ -117,4 +117,48 @@ const transactions = [
     },
 ]
 
-export { xAxisData, newMembers, transactions }
+
+const products = [
+    {
+        id: 1,
+        title: 'Asus',
+        avatar: 'images/asus.jpeg',
+        price: 975
+    },
+    {
+        id: 2,
+        title: 'Acer',
+        avatar: 'images/acer.jpg',
+        price: 685
+    },
+    {
+        id: 3,
+        title: 'HP',
+        avatar: 'images/hp.jpg',
+        price: 890
+    },
+    {
+        id: 4,
+        title: 'Dell',
+        avatar: 'images/dell.jpg',
+        price: 1240
+    },
+]
+
+const productsData = [
+    {
+        name: 'Jan',
+        sales: 4000,
+    },
+    {
+        name: 'Feb',
+        sales: 3000,
+    },
+    {
+        name: 'Mar',
+        sales: 5000,
+    },
+]
+
+
+export { xAxisData, newMembers, transactions, products, productsData }
