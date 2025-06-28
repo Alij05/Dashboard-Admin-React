@@ -70,7 +70,7 @@ export default function UsersList() {
       renderCell: (params) => {
         return (
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <Link to={`/user/${params.row.id}`} className="link">
+            <Link to={`/user/${params.row.firebaseKey}`} className="link">
               <button className='userListEdit'>Edit</button>
             </Link>
             <DeleteOutlineIcon
