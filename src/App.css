@@ -4,7 +4,7 @@
 
 .container {
   display: flex;
-  margin-top: 24px;
+  margin: 24px 0;
   gap: 30px;
   padding-right: 35px;
 }
